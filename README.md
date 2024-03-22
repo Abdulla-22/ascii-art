@@ -1,3 +1,62 @@
+# ASCII Art
+
+This project is a program written in Go that takes a string as an argument and outputs the string in a graphical representation using ASCII characters. The goal is to create a visual representation of the input string using ASCII art.
+
+## Usage
+
+To run the program, use the following command:
+
+```shell
+go run . <input_string>
+```
+
+Replace `<input_string>` with the string you want to convert to ASCII art.
+
+## Banner Files
+
+The project includes several banner files with predefined graphical templates represented using ASCII characters. These files are formatted in a way that does not require any changes.
+
+- `shadow`
+- `standard`
+- `thinkertoy`
+
+## Banner Format
+
+Each character in the banner files has a height of 8 lines. Characters are separated by a new line (`\n`). Here is an example of the characters ' ', '!', and '"':
+
+```
+......
+......
+......
+......
+......
+......
+......
+......
+
+._..
+|.|.
+|.|.
+|.|.
+|_|.
+(_).
+....
+....
+
+._._..
+(.|.).
+.V.V..
+......
+......
+......
+......
+......
+```
+
+**Note:** Please refer to the ASCII manual for more information on ASCII characters and their representations.
+
+
+
 # Ascii-art
 ASCII-art is a program which consists in receiving a string as an argument and outputting the string in a graphical representation using ASCII.
 
