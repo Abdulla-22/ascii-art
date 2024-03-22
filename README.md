@@ -9,7 +9,7 @@ To run the program, use the following command:
 Simply copy the below command and change the text between the "" symbol. And make sure that you are in the **App** directory.
 
 ```shell
-$go run . "enter-yours-text" "BannerName"
+$ go run . "enter-yours-text" "BannerName"
 ```
 ```shell
     ex: go run . "Hello There!" shadow | cat -e
