@@ -6,6 +6,22 @@ This project is a program written in Go that takes a string as an argument and o
 
 To run the program, use the following command:
 
+Simply copy the below command and change the text between the "" symbol. And make sure that you are in the **App** directory.
+
+```shell
+$go run . "enter-yours-text" "BannerName"
+```
+```shell
+    ex: go run . "Hello There!" shadow | cat -e
+```
+Or try the test file.
+- $ ../Testing/Test.sh
+- $ ../Testing/BannaerTest.sh
+
+Also you can save the art in a txt file by using thr follwing command (Make sure to use the same format as following):
+- $ go run . --output="FileName.txt" "enter-yours-text" BannerName
+
+
 ```shell
 go run . <input_string>
 ```
@@ -52,6 +68,7 @@ Each character in the banner files has a height of 8 lines. Characters are separ
 ......
 ......
 ```
+
 
 **Note:** Please refer to the ASCII manual for more information on ASCII characters and their representations.
 
