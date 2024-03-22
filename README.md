@@ -11,8 +11,10 @@ Simply copy the below command and change the text between the "" symbol. And mak
 ```shell
 go run . "enter-yours-text" "BannerName"
 ```
+
+For example:
 ```shell
-    ex: go run . "Hello There!" "shadow" | cat -e
+go run . "Hello There!" "shadow" | cat -e
 ```
 Or try the test file.
 
